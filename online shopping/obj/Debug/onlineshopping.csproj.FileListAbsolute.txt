@@ -1,0 +1,39 @@
+C:\Users\win 10\Desktop\online shopping\online shopping\bin\online shopping.dll
+C:\Users\win 10\Desktop\online shopping\online shopping\bin\online shopping.pdb
+C:\Users\win 10\Desktop\online shopping\online shopping\obj\Debug\online shopping.dll
+C:\Users\win 10\Desktop\online shopping\online shopping\obj\Debug\online shopping.pdb
+F:\online shopping11\online shopping\bin\online shopping.dll
+F:\online shopping11\online shopping\bin\online shopping.pdb
+F:\online shopping11\online shopping\obj\Debug\online shopping.dll
+F:\online shopping11\online shopping\obj\Debug\online shopping.pdb
+F:\online shopping11\online shopping\obj\Debug\onlineshopping.csprojResolveAssemblyReference.cache
+C:\Users\win 10\Desktop\tejaswini\online shopping\bin\online shopping.dll
+C:\Users\win 10\Desktop\tejaswini\online shopping\bin\online shopping.pdb
+C:\Users\win 10\Desktop\tejaswini\online shopping\obj\Debug\onlineshopping.csprojResolveAssemblyReference.cache
+C:\Users\win 10\Desktop\tejaswini\online shopping\obj\Debug\online shopping.dll
+C:\Users\win 10\Desktop\tejaswini\online shopping\obj\Debug\online shopping.pdb
+C:\Users\win 10\Desktop\tejaswini1\online shopping\obj\Debug\onlineshopping.csprojResolveAssemblyReference.cache
+C:\Users\win 10\Desktop\tejaswini1\online shopping\obj\Debug\online shopping.dll
+C:\Users\win 10\Desktop\tejaswini1\online shopping\obj\Debug\online shopping.pdb
+C:\Users\win 10\Desktop\tejaswini1\online shopping\bin\online shopping.dll
+C:\Users\win 10\Desktop\tejaswini1\online shopping\bin\online shopping.pdb
+C:\Users\win 10\Desktop\tejaswini 2\online shopping\bin\online shopping.dll
+C:\Users\win 10\Desktop\tejaswini 2\online shopping\bin\online shopping.pdb
+C:\Users\win 10\Desktop\tejaswini 2\online shopping\obj\Debug\onlineshopping.csprojResolveAssemblyReference.cache
+C:\Users\win 10\Desktop\tejaswini 2\online shopping\obj\Debug\online shopping.dll
+C:\Users\win 10\Desktop\tejaswini 2\online shopping\obj\Debug\online shopping.pdb
+C:\Users\win 10\Desktop\tejaswini 3\online shopping\obj\Debug\onlineshopping.csprojResolveAssemblyReference.cache
+C:\Users\win 10\Desktop\tejaswini 3\online shopping\obj\Debug\online shopping.dll
+C:\Users\win 10\Desktop\tejaswini 3\online shopping\bin\online shopping.dll
+C:\Users\win 10\Desktop\tejaswini 3\online shopping\bin\online shopping.pdb
+C:\Users\win 10\Desktop\tejaswini 3\online shopping\obj\Debug\online shopping.pdb
+C:\Users\Admin\Documents\Desktop\tejaswini 3\online shopping\bin\online shopping.dll
+C:\Users\Admin\Documents\Desktop\tejaswini 3\online shopping\bin\online shopping.pdb
+C:\Users\Admin\Documents\Desktop\tejaswini 3\online shopping\obj\Debug\onlineshopping.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Desktop\tejaswini 3\online shopping\obj\Debug\online shopping.dll
+C:\Users\Admin\Documents\Desktop\tejaswini 3\online shopping\obj\Debug\online shopping.pdb
+E:\online shopping11\ONLINE SHOPPING (GROUP 4)\online shopping\bin\online shopping.dll
+E:\online shopping11\ONLINE SHOPPING (GROUP 4)\online shopping\bin\online shopping.pdb
+E:\online shopping11\ONLINE SHOPPING (GROUP 4)\online shopping\obj\Debug\onlineshopping.csprojResolveAssemblyReference.cache
+E:\online shopping11\ONLINE SHOPPING (GROUP 4)\online shopping\obj\Debug\online shopping.dll
+E:\online shopping11\ONLINE SHOPPING (GROUP 4)\online shopping\obj\Debug\online shopping.pdb

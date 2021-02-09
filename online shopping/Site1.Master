@@ -1,0 +1,187 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="online_shopping.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    <!-- Start WOWSlider.com HEAD section -->
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            height: 26px;
+        }
+        .style3
+        {
+            height: 281px;
+        }
+        .style4
+        {
+            margin-right: 0px;
+        }
+    </style>
+</head>
+<body bgcolor="#66ffff" background="IMAGES/20141125-225805-handbag1.png">
+    <form id="form1" runat="server">
+    <div>
+        <table class="style1">
+            <tr>
+                <td bgcolor="#FFFF66" 
+                    style="background-image: url('/IMAGES/T1.JPG'); font-size: large;" 
+                    class="style3">
+                    <asp:Image ID="Image1" runat="server" BackColor="Yellow" Height="132px" 
+                        ImageUrl="~/IMAGES/aa6.png" Width="542px" CssClass="style4" />
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" 
+                        Font-Names="Pristina" Font-Size="X-Large" Text="Stay Home And Shop online"></asp:Label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="90px" 
+                        ImageUrl="~/IMAGES/zz.png" />
+                    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <asp:Label ID="Label2" 
+                        runat="server" Font-Size="X-Large" Font-Bold="True" 
+                        Font-Names="Eras Bold ITC" Font-Underline="True"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/AddtoCart.aspx" 
+                        ForeColor="#0033CC">Show Cart</asp:HyperLink>
+                    <br />
+                    <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <br />
+                    <br />
+                    <asp:Button ID="HOME" runat="server" Text="HOME" BackColor="#99FFCC" 
+                        Font-Bold="True" Font-Italic="True" Font-Names="Eras Bold ITC" 
+                        Font-Size="X-Large" Height="49px" onclick="HOME_Click" Width="153px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;<asp:DropDownList ID="CLOTHES" runat="server" AutoPostBack="True" 
+                        BackColor="#66FFFF" Font-Bold="True" Font-Italic="True" 
+                        Font-Names="Eras Bold ITC" 
+                        onselectedindexchanged="CLOTHES_SelectedIndexChanged" 
+                        style="margin-left: 0px; margin-top: 0px; margin-bottom: 0px" 
+                        Width="246px" Font-Size="Large">
+                        <asp:ListItem>CLOTHES</asp:ListItem>
+                        <asp:ListItem>MEN</asp:ListItem>
+                        <asp:ListItem>WOMEN</asp:ListItem>
+                        <asp:ListItem>KIDS</asp:ListItem>
+                    </asp:DropDownList>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:DropDownList ID="DropDownList1" runat="server" BackColor="#66FFCC" 
+                        Font-Bold="True" Font-Italic="True" Font-Names="Eras Bold ITC" 
+                        onselectedindexchanged="DropDownList1_SelectedIndexChanged" Width="299px" 
+                        AutoPostBack="True" Font-Size="Large">
+                        <asp:ListItem>JEWELLERY</asp:ListItem>
+                        <asp:ListItem>NECKLACE</asp:ListItem>
+                        <asp:ListItem>EARINGS</asp:ListItem>
+                        <asp:ListItem>RINGS</asp:ListItem>
+                    </asp:DropDownList>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:DropDownList ID="DropDownList2" runat="server" BackColor="#66FFCC" 
+                        Font-Bold="True" Font-Italic="True" Font-Names="Eras Bold ITC" 
+                        onselectedindexchanged="DropDownList2_SelectedIndexChanged" Width="308px" 
+                        AutoPostBack="True" Font-Size="Large" Height="29px">
+                        <asp:ListItem>DAILY PRODUCTS</asp:ListItem>
+                        <asp:ListItem>SHOES</asp:ListItem>
+                        <asp:ListItem>SHAMPOO</asp:ListItem>
+                        <asp:ListItem>SOAPS</asp:ListItem>
+                    </asp:DropDownList>
+                    &nbsp;
+&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink4" runat="server" BackColor="#00FFCC" 
+                        Font-Bold="True" Font-Italic="True" Font-Names="Eras Bold ITC" 
+                        Font-Size="Large" Font-Underline="True" ForeColor="Black" 
+                        NavigateUrl="~/Login.aspx">Log In </asp:HyperLink>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink5" runat="server" BackColor="#00FFCC" 
+                        Font-Bold="True" Font-Italic="True" Font-Names="Eras Bold ITC" 
+                        Font-Size="Large" Font-Underline="True" ForeColor="Black" 
+                        NavigateUrl="~/WebForm17.aspx">Sign Up</asp:HyperLink>
+                    <br />
+                    <br />
+&nbsp;<asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="X-Large" 
+                        BackColor="#003399" BorderStyle="Solid" ForeColor="White">  </asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<asp:LinkButton 
+                        ID="LinkButton1" runat="server" Font-Bold="True" Font-Size="X-Large" 
+                        onclick="LinkButton1_Click" style="background-color: #FFFFFF">SignOut</asp:LinkButton>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                   
+                   <!-- Start WOWSlider.com BODY section -->
+                        <br />
+                        <img src="data1/images/0fb70a5baf67547c.jpg" alt="0fb70a5baf67547c" title="0fb70a5baf67547c" id="wows1_0"/><br />
+                        <div id="wowslider-container1">
+                            <div class="ws_images">
+                                <ul>
+                                    <li></li>
+                                    <li>
+                                        <img src="data1/images/0ae90ae946cbca08.jpg" alt="0ae90ae946cbca08" title="0ae90ae946cbca08" id="wows1_1"/></li>
+                                    <li>
+                                        <img src="data1/images/72a0e2e27f4fff9c.jpg" alt="72a0e2e27f4fff9c" title="72a0e2e27f4fff9c" id="wows1_2"/></li>
+                                    <li><a href="http://wowslider.net">
+                                        <img src="data1/images/03213f69cfa44e4f.jpg" alt="jquery slideshow" title="03213f69cfa44e4f" id="wows1_3"/></a></li>
+                                    <li>
+                                        <img src="data1/images/aae69d541b39997f.jpg" alt="aae69d541b39997f" title="aae69d541b39997f" id="wows1_4"/></li>
+                                </ul>
+                            </div>
+                            <div class="ws_bullets">
+                                <div>
+                                    <a href="#" title="0fb70a5baf67547c"><span>
+                                    <img src="data1/tooltips/0fb70a5baf67547c.jpg" alt="0fb70a5baf67547c"/>1</span></a>
+                                    <a href="#" title="0ae90ae946cbca08"><span>
+                                    <img src="data1/tooltips/0ae90ae946cbca08.jpg" alt="0ae90ae946cbca08"/>2</span></a>
+                                    <a href="#" title="72a0e2e27f4fff9c"><span>
+                                    <img src="data1/tooltips/72a0e2e27f4fff9c.jpg" alt="72a0e2e27f4fff9c"/>3</span></a>
+                                    <a href="#" title="03213f69cfa44e4f"><span>
+                                    <img src="data1/tooltips/03213f69cfa44e4f.jpg" alt="03213f69cfa44e4f"/>4</span></a>
+                                    <a href="#" title="aae69d541b39997f"><span>
+                                    <img src="data1/tooltips/aae69d541b39997f.jpg" alt="aae69d541b39997f"/>5</span></a>
+                                </div>
+                            </div>
+                            <div class="ws_script" style="position:absolute;left:-99%">
+                                <a href="http://wowslider.net">image carousel</a> by WOWSlider.com v8.8</div>
+                            <div class="ws_shadow">
+                            </div>
+                        </div>
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                    
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            </table>
+    </div>
+    <div>
+        <table class="style1">
+            <tr>
+                <td class="style2" bgcolor="Black">
+                    <br />
+                    <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" 
+                        Font-Italic="True" Font-Size="XX-Large" NavigateUrl="~/WebForm11.aspx" 
+                        ForeColor="Aqua">About Us</asp:HyperLink>
+                    <br />
+                    <br />
+                    <br />
+                    <asp:HyperLink ID="HyperLink2" runat="server" Font-Bold="True" 
+                        Font-Italic="True" Font-Size="XX-Large" NavigateUrl="~/ContactUs.aspx" 
+                        ForeColor="Aqua">Contact Us</asp:HyperLink>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

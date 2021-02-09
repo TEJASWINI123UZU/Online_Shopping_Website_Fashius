@@ -1,0 +1,6 @@
+c:\users\admin\documents\visual studio 2010\Projects\online shopping\online shopping\bin\online shopping.dll
+c:\users\admin\documents\visual studio 2010\Projects\online shopping\online shopping\bin\online shopping.pdb
+c:\users\admin\documents\visual studio 2010\Projects\online shopping\online shopping\obj\Debug\online shopping.dll
+c:\users\admin\documents\visual studio 2010\Projects\online shopping\online shopping\obj\Debug\online shopping.pdb
+C:\Users\win 10\Desktop\online shopping\online shopping\obj\Debug\online shopping.dll
+C:\Users\win 10\Desktop\online shopping\online shopping\obj\Debug\online shopping.pdb

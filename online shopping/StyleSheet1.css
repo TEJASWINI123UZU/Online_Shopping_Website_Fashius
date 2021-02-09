@@ -1,0 +1,9 @@
+﻿.text_indicator
+{
+    background-color:Gray;
+    color:White;
+    font-family:Arial;
+    font-size:x-small;
+    font-style:italic;
+    padding:2px 3px 2px 3px;
+}
